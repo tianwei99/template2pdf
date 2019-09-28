@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.IOException;
 
-@SpringBootApplication(scanBasePackages = {"jscloud.demo"})
+@SpringBootApplication(scanBasePackages = {"jscloud.test.demo.template2pdf","jscloud.demo"})
 public class Template2PDFApplication {
 
     public static void main(String[] args) throws IOException {
