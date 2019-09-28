@@ -1,0 +1,176 @@
+<head>
+    <style type="text/css" mce_bogus="1">
+        .titleDiv {
+            margin-top: 10pt;
+            width: 750px;
+        }
+
+        .titleDivLeft {
+            text-align: center;
+            height: 20pt;
+            width: 20%;
+        }
+
+        .titleDivMiddle {
+            text-align: center;
+            height: 20pt;
+            width: 60%;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        .titleDivRight {
+            text-align: center;
+            height: 20pt;
+            width: 20%;
+        }
+
+        .titleDivLogo {
+            width: 30mm;
+            height: 7mm;
+            padding-left: 5pt;
+            padding-top: 6pt;
+        }
+
+        .orderDiv {
+            width: 752px;
+            height: 800px;
+            border: 2px solid black;
+        }
+
+        .orderDivTd {
+            vertical-align: top;
+        }
+
+        .divTable {
+            width: 750px;
+        }
+
+        .orderDivTableLeft {
+            text-align: left;
+            height: 40pt;
+            width: 15%;
+            font-size: 10pt;
+        }
+
+        .orderDivTableRight {
+            text-align: left;
+            height: 40pt;
+            width: 85%;
+            font-size: 10pt;
+        }
+
+        .orderDetailCol1 {
+            text-align: center;
+            height: 20pt;
+            width: 8%;
+        }
+
+        .orderDetailCol2 {
+            text-align: center;
+            height: 20pt;
+            width: 20%;
+        }
+
+        .orderDetailCol3 {
+            text-align: center;
+            height: 20pt;
+            width: 60%;
+        }
+
+        .orderDetailCol4 {
+            text-align: center;
+            height: 20pt;
+            width: 12%;
+        }
+
+        .centerTd {
+            text-align: center;
+            height: 20pt;
+            font-size: 10pt;
+        }
+
+        .leftTd {
+            text-align: left;
+            height: 20pt;
+            font-size: 10pt;
+        }
+
+    </style>
+</head>
+<body>
+<div id="packPrintHtml">
+    <div>
+        <table class="titleDiv">
+            <tr>
+                <td class="titleDivLeft">
+                    <div class="titleDivLogo">
+                        <img src="template-logo" alt="logo"/>
+                    </div>
+                </td>
+                <td class="titleDivMiddle">
+                    有派乐活批次拣货单
+                </td>
+                <td class="titleDivRight"></td>
+            </tr>
+        </table>
+        <div style="padding-left:5px;padding-top: 30px;">
+            <table class="orderDiv">
+                <tr>
+                    <td class="orderDivTd">
+                        <div>
+                            <table class="divTable">
+                                <tr>
+                                    <td class="orderDivTableLeft">
+                                        <div style=" padding-top: 5pt; padding-left: 5pt;padding-bottom: 5pt;">
+                                            批次编号 :
+                                        </div>
+                                        <div style=" padding-top: 5pt; padding-left: 5pt;padding-bottom: 5pt;">
+                                            生成时间 :
+                                        </div>
+                                    </td>
+                                    <td class="orderDivTableRight">
+                                        <div style=" padding-top: 5pt; padding-left: 5pt;padding-bottom: 5pt;">
+                                            templatePickBathchNo
+                                        </div>
+                                        <div style=" padding-top: 5pt; padding-left: 5pt;padding-bottom: 5pt;">
+                                            templateBathchTime
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <hr/>
+                        <div>
+                            <table class="divTable">
+                                <tr>
+                                    <td class="orderDetailCol1 centerTd">
+                                        序号
+                                    </td>
+                                    <td class="orderDetailCol2 leftTd">
+                                        产品编号
+                                    </td>
+                                    <td class="orderDetailCol3 leftTd">
+                                        产品名称
+                                    </td>
+                                    <td class="orderDetailCol4 centerTd">
+                                        数量
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" style="padding-top: 10pt;">
+                                        <div>
+                                            <hr/>
+                                        </div>
+                                    </td>
+                                </tr>
+                                templateOrderItemHtml
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>

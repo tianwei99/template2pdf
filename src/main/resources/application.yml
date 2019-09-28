@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /pdf
+spring:
+  profiles:
+    active: dev
+#swagger2配置信息
+swagger2:
+  enable: true
+  basePackage: jscloud.test.demo.template2pdf
+  title: PDF测试调试文档
+  desc:
+  termsOfServiceUrl: jscloud.test.demo.template2pdf
+  version: 1.0
