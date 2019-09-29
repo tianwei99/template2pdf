@@ -1,15 +1,18 @@
 package jscloud.test.demo.template2pdf;
 
-import jscloud.common.base.JscloudApplication;
+import hcloud.demo.HcloudApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 import java.io.IOException;
 
-@SpringBootApplication(scanBasePackages = {"jscloud.test.demo.template2pdf","jscloud.demo"})
+@SpringBootApplication(
+        exclude = {DataSourceAutoConfiguration.class},
+        scanBasePackages = {"jscloud.test.demo.template2pdf", "hcloud.demo", "jscloud.demo"})
 public class Template2PDFApplication {
 
     public static void main(String[] args) throws IOException {
-        JscloudApplication.run(Template2PDFApplication.class, args);
+        HcloudApplication.run(Template2PDFApplication.class, args);
 
 //        RandomAccessFile aFile = new RandomAccessFile("C:\\Users\\think\\Desktop\\ant_1.2.5\\readme.txt", "rw");
 //        FileChannel inChannel = aFile.getChannel();

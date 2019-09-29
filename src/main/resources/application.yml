@@ -9,8 +9,9 @@ spring:
 #swagger2配置信息
 swagger2:
   enable: true
-  basePackage: jscloud.test.demo
+  basePackage: jscloud.test.demo.template2pdf
   title: PDF测试调试文档
   desc:
-  termsOfServiceUrl: jscloud.test.demo
+  termsOfServiceUrl: jscloud.test.demo.template2pdf
   version: 1.0
+

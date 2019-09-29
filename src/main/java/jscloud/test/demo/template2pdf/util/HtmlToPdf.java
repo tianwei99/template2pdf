@@ -15,7 +15,9 @@ import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
 
 import javax.servlet.http.HttpServletResponse;
-import jscloud.common.base.exception.BusinessException;
+
+import hcloud.demo.exception.BusinessException;
+import hcloud.demo.vo.BaseVo;
 
 /**
  * description 导出PDF文件转换工具

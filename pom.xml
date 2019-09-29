@@ -19,8 +19,6 @@
         <itext-asian.version>5.2.0</itext-asian.version>
         <xmlworker.version>5.5.11</xmlworker.version>
         <lombok.version>1.18.8</lombok.version>
-        <swagger2.version>2.9.2</swagger2.version>
-        <swagger.bootstrap.ui.versioin>1.9.4</swagger.bootstrap.ui.versioin>
     </properties>
 
     <dependencies>
@@ -30,13 +28,13 @@
             <version>1.0.1</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>hcloud.demo</groupId>
+            <artifactId>hcloud-demo</artifactId>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>jscloud.common</groupId>
-            <artifactId>jscloud-common-base</artifactId>
-            <version>1.0.3</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!-- itext5 start -->
         <dependency>
@@ -91,42 +89,11 @@
             <artifactId>freemarker</artifactId>
             <version>2.3.26-incubating</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>jfreechart</groupId>-->
-            <!--<artifactId>jfreechart</artifactId>-->
-            <!--<version>1.0.2</version>-->
-        <!--</dependency>-->
-        <!--jfreechart-->
+       <!--jfreechart-->
         <dependency>
             <groupId>jfree</groupId>
             <artifactId>jfreechart</artifactId>
             <version>1.0.2</version>
-        </dependency>
-        <!--log-->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>1.0.13</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.0.13</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-access</artifactId>
-            <version>1.0.13</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.7.21</version>
         </dependency>
         <!--util-->
         <dependency>
@@ -162,16 +129,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${swagger2.version}</version>
-            <scope>compile</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>swagger-bootstrap-ui</artifactId>
-            <version>${swagger.bootstrap.ui.versioin}</version>
+            <version>1.9.4</version>
         </dependency>
     </dependencies>
 
