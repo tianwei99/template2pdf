@@ -23,7 +23,7 @@ import hcloud.demo.vo.BaseVo;
  * description 导出PDF文件转换工具
  * 创建时间 2018/9/21
  *
- * @author 仇兴洲
+ * @author xxx
  */
 public class HtmlToPdf {
     public static void createPdf(List<HashMap<String, String>> orderList, HttpServletResponse response) {
